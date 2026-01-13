@@ -25,7 +25,7 @@ if(isset($_POST['name'])){
     $sql = "INSERT INTO `trip`.`trip` (`name`, `age`, `gender`, `email`, `phone`, `other`, `dt`) VALUES ('$name', '$age', '$gender', '$email', '$phone', '$desc', current_timestamp());";
     // echo $sql;
 
-    // Execute the query
+    // Execute the query:
     if($con->query($sql) == true){
         // echo "Successfully inserted";
 
