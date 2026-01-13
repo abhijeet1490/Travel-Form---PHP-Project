@@ -1,6 +1,6 @@
 -- Database: trip
 -- Table: trip
--- Description: Travel form submission database
+-- Description: Travel form submission database :
 
 -- Create database
 CREATE DATABASE IF NOT EXISTS `trip` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
